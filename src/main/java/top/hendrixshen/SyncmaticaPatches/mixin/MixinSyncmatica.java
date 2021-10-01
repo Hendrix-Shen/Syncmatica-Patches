@@ -19,7 +19,9 @@ public abstract class MixinSyncmatica {
     private static void init(Context con, Identifier contextId) {
     }
 
-    @Shadow @Final private static String SERVER_PATH;
+    @Shadow
+    @Final
+    private static String SERVER_PATH;
 
     @Redirect(
             method = "initServer",
