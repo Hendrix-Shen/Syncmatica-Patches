@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.hendrixshen.SyncmaticaPatches.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinSyncmatica"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

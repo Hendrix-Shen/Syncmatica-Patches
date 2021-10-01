@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "syncmatica-patches",
+  "version": "${mod_version}",
+
+  "name": "Syncmatica Patches",
+  "description": "We need to make some changes.",
+  "authors": [
+    {
+      "name": "Hendrix-Shen",
+      "contact": {
+        "homepage": "https://github.com/Hendrix-Shen"
+      }
+    }
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Hendrix-Shen",
+    "issues": "https://github.com/Hendrix-Shen/Syncmatica-Patches/issues",
+    "sources": "https://github.com/Hendrix-Shen/Syncmatica-Patches"
+  },
+
+  "license": "GPL-v3",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.hendrixshen.SyncmaticaPatches.SyncmaticaPatches"
+    ]
+  },
+  "mixins": [
+    "syncmatica-patches.mixins.json"
+  ],
+
+  "accessWidener": "syncmatica-patches.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.9.0"
+  }
+}
